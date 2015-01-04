@@ -1,0 +1,88 @@
+{
+	"id": "16f05b02-1027-0927-4d48-42d57b41cd43",
+	"name": "Journey Builder Developer's Guide",
+	"description": "REST API methods used in Journey Builder Developer's Guide.",
+	"order": [],
+	"folders": [
+		{
+			"id": "c285a7d5-e0f1-411c-ae54-6bfbb7b63411",
+			"name": "Authorization",
+			"description": "",
+			"order": [
+				"a85994f8-68e8-4171-4011-0fb0d38d47cc",
+				"6f0f8033-d74a-3cc8-bbcf-a361031eadec",
+				"467ec2ea-d451-2009-dd9c-450a2c940354"
+			],
+			"collection_name": "Journey Builder Developer's Guide",
+			"collection_id": "16f05b02-1027-0927-4d48-42d57b41cd43"
+		}
+	],
+	"timestamp": 1419916077570,
+	"synced": false,
+	"remoteLink": "https://www.getpostman.com/collections/efa1987f5850e29116a8",
+	"requests": [
+		{
+			"id": "467ec2ea-d451-2009-dd9c-450a2c940354",
+			"headers": "Content-Type: application/json\n",
+			"url": "https://auth.exacttargetapis.com/v1/requestToken",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1420081116659,
+			"name": "RefreshToken with RequestToken",
+			"description": "Replace `clientId` and `clientSecret` values with app credentials provided in App Center.",
+			"collectionId": "16f05b02-1027-0927-4d48-42d57b41cd43",
+			"responses": [],
+			"synced": false,
+			"rawModeData": "{\n  \"clientId\": \"kmjv6cr3psfab2wmt52j854w\",\n  \"clientSecret\": \"SJbAEenSK3SVBK4d4vWV6NKD\",\n  \"refreshToken\":\"dekwsq5y6pucrfk54p97j98m\",\n  \"accessType\": \"offline\"\n}"
+		},
+		{
+			"id": "6f0f8033-d74a-3cc8-bbcf-a361031eadec",
+			"headers": "Content-Type: application/json\n",
+			"url": "https://auth.exacttargetapis.com/v1/requestToken",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1420079250254,
+			"name": "RequestToken with RefreshToken",
+			"description": "Replace `clientId` and `clientSecret` values with app credentials provided in App Center.",
+			"collectionId": "16f05b02-1027-0927-4d48-42d57b41cd43",
+			"responses": [],
+			"synced": false,
+			"rawModeData": "{\n  \"clientId\": \"kmjv6cr3psfab2wmt52j854w\",\n  \"clientSecret\": \"SJbAEenSK3SVBK4d4vWV6NKD\",\n  \"accessType\":\"offline\n}"
+		},
+		{
+			"id": "a85994f8-68e8-4171-4011-0fb0d38d47cc",
+			"headers": "Content-Type: application/json\n",
+			"url": "https://auth.exacttargetapis.com/v1/requestToken",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1420079244708,
+			"name": "RequestToken",
+			"description": "Replace `clientId` and `clientSecret` values with app credentials provided in App Center.",
+			"collectionId": "16f05b02-1027-0927-4d48-42d57b41cd43",
+			"responses": [],
+			"synced": false,
+			"rawModeData": "{\n  \"clientId\": \"kmjv6cr3psfab2wmt52j854w\",\n  \"clientSecret\": \"SJbAEenSK3SVBK4d4vWV6NKD\"\n}"
+		}
+	]
+}
