@@ -6,4 +6,4 @@ If you are interested in reviewing this book then please [connect with me](https
 
 ## Copyright
 
-All images, illustrations, technical drawings, documentation and other content in this repository remain the property of the author and may not be used or distributed without permission.
+All images, illustrations, technical drawings, documentation and other content in this repository remain the property of the author and may not be used, modified or distributed without permission.
