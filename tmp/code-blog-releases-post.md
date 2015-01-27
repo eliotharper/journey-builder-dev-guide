@@ -81,7 +81,7 @@ This feature is helpful to be aware of when troubleshooting an Interaction or mo
 
 This page displays a complete transaction history of current and previously published Interactions. A search filter enables filtering by Contacts to display the Interactions they entered and exited, and the status of the Contact in Interactions. You can also filter by a column value, for example 'DidNotMeetEntryCriteria' to filter all Contacts that did not meet the Contact Filter Criteria defined in the Interaction Trigger.
 
-![Contact History](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/contact-history.png "Date-Based Trigger in an Interaction Trigger")<br />*Date-Based Trigger in an Interaction Trigger*
+![Contact History](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/contact-history.png "Contacts Administration in Journey Builder")<br />*Contacts Administration in Journey Builder*
 
 ### Wait Period Time (Jan 2015 Release)
 
