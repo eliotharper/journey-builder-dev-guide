@@ -157,6 +157,10 @@ A Push Service Manager app accessible from the HubExchange menu in Marketing Clo
 
 ![Push Service Manager](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/PushServiceManager.png "Managing MobilePush configurations using Push Service Manager")<br />*Managing MobilePush configurations using Push Service Manager*
 
+## Conclusion
+
+These recent developer-centric enhancements to Salesforce Marketing Cloud provide further affirmation that Salesforce recognize the essential role that developers play in the integration and ultimately adoption of their platform. I have no doubt that we will see many other developer related enhancements in their aggressive [release schedule for 2015](http://help.exacttarget.com/en/documentation/exacttarget/resources/release_notes/salesforce_marketing_cloud_2015_release_schedule/).
+
 ## About the Author
 
 Eliot Harper is Chief Technology Officer at Digital Logic, a Salesforce Marketing Cloud Partner based in Melbourne, Australia. Eliot specializes in Customer Journey Management and is author of the Journey Builder Developer's Guide http://jbdevelopers.guide.
