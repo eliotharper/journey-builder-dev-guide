@@ -4,7 +4,7 @@ The two recent releases of Salesforce Marketing Cloud (Nov 2014 and Jan 2015) in
 
 ## Journey Builder Enhancements
 
-### Contact Entry Mode (January 2015 release)
+### Contact Entry Mode (Jan 2015 Release)
 
 In previous versions of Journey Builder, once a Contact has entered an Interaction they could not enter the Interaction again, even if the Contact has already exited the Interaction. If you create a new version of the Interaction and publish it, then the same rule applies; if the Contact has entered any previous version of the Interaction, then they will not enter the new version.
 
@@ -25,7 +25,7 @@ This mode can also be defined when creating an Interaction using the an Interact
 
 If you do not define an `entryMode` when creating an Interaction, then the Interaction will use `SingleEntryAcrossAllVersions` by default.
 
-## Date-Based Triggers (January 2015 release)
+## Date-Based Triggers (Jan 2015 Release)
 
 A new 'Date-Based' Trigger option is available in Interaction Triggers that enables date-based Attributes from the Contact model to determine an entry criteria for the Interaction.
 
@@ -49,7 +49,7 @@ Only Triggers that are set to 'Unavailable' can be tested. If a Trigger is curre
 
 A View Results link will then appear in the Trigger Performance column. Fire an Event (using Automation Studio or the contactEvents API method) for the Interaction Trigger to hear the Event, then click on the **View Results** link to preview the percentage of rejected Contacts (that did not meet the entry criteria) and the percentage of Contacts that would have been accepted into the Interaction, if the Trigger was available.
 
-### Join Activity (November 2014 release)
+### Join Activity (Nov 2014 Release)
 
 Join Activities reunite Contacts from two or more different branches back to a single branch. For example, if a Decision Split Activity is used to send two or more different messaging activities to Contacts, a Join Activity can be used to merge branches back together, so contacts continue to flow toward the same endpoint. 
 
@@ -59,7 +59,7 @@ In WDF, Wait Periods (represented as `Wait` type Activities) are reunited into a
 
 ![WDF Join Flow](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/join-flow.png "A WDF Interaction with a Join Activity")<br />*A WDF Interaction Workflow with a Join Activity*
 
-## Personalization Strings in Email (November 2014 release)
+## Personalization Strings in Email (Nov 2014 Release)
 
 Personalization strings are now supported in emails sent from Journey Builder (in previous releases, emails in a Journey Builder Send Email Activity could not be personalized). The data binding context used for personalization strings is the Event Source Data Extension defined in the Interaction Trigger. 
 
@@ -75,7 +75,7 @@ Note that if the email template is updated while an Interaction is running, you 
 
 ![Publishing Triggered Sends](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/publishing-triggered-sends.png "Publishing Triggered Sends from Marketing Cloud Email App")<br />*Publishing Triggered Sends from Marketing Cloud Email App*
 
-### Contact History (November 2014 Release)
+### Contact History (Nov 2014 Release)
 
 This feature is helpful to be aware of when troubleshooting an Interaction or monitoring the progress of an Interaction. You can view an activity log for Contacts that have entered an Interaction by selecting **Contacts** from the **Administration** menu in Journey Builder.
 
@@ -83,7 +83,7 @@ This page displays a complete transaction history of current and previously publ
 
 ![Contact History](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/contact-history.png "Date-Based Trigger in an Interaction Trigger")<br />*Date-Based Trigger in an Interaction Trigger*
 
-### Wait Period Time (January 2015 release)
+### Wait Period Time (Jan 2015 Release)
 
 While this new feature is not mentioned in the release notes and not yet supported in the Interaction Canvas interface, it's now available through the Fuel REST API and is worth understanding. Wait Periods in an Interaction can now define what time (and time zone) the Wait Period ends and the next Activity in a branch commences.
 
@@ -115,7 +115,7 @@ What is interesting to note is that there's a new `waitForEventKey` name/value p
 
 ## Journey Builder for Apps Enhancements
 
-### Pictures in MobilePush Notifications in Android Devices (November 2014 Release)
+### Pictures in MobilePush Notifications in Android Devices (Nov 2014 Release)
 
 Pictures can now be included in MobilePush Notifications for Android Devices. This support adds impact to push notifications and can improve action rates.
 
@@ -131,7 +131,7 @@ The Android SDK will handle the message display and the image (which will be sca
 
 ![Picture in Push Notification](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/android_sdk_bigpic_picture_message.png "Image in a MobilePush Message")<br />*Image in a MobilePush Message*
 
-# Journey Builder for Apps SDK Explorer (November 2014 Release)
+# Journey Builder for Apps SDK Explorer (Nov 2014 Release)
 
 Journey Builder for Apps SDK Explorer available from [Google Play Store](https://play.google.com/store/apps/details?id=com.exacttarget.jb4a.sdkexplorer) enables developers to use the SDK without a requiring a Salesforce Marketing Cloud account. An iOS version of this app will be available from the Apple App Store in the coming months.
 
@@ -139,7 +139,7 @@ Journey Builder for Apps SDK Explorer available from [Google Play Store](https:/
 
 ## MobilePush
 
-### Interactive Notifications (November 2014 Release)
+### Interactive Notifications (Nov 2014 Release)
 
 This new feature enables an app to display button controls on a mobile device when it receives a push message from MobilePush. For example, a 'View Offer' button that links to a mobile-optimized landing page. 
 
@@ -147,11 +147,11 @@ The category names of these Interactive Notifications are then included in the m
 
 Once implemented, Interactive Notifications are available in the outbound message template when creating a message from the MobilePush app. You can include up to four buttons specifying actions per message notification.
 
-### Interactive Notifications for Location Messages (January 2015 release)
+### Interactive Notifications for Location Messages (Jan 2015 Release)
 
 Extending the previous release, Interactive Notifications have been added to the Locations feature in MobilePush, enabling Location Exit or Entry messages to include Interactive Notifications based on their defined geofence area.
 
-### Push Service Manager (November 2014 Release)
+### Push Service Manager (Nov 2014 Release)
 
 A Push Service Manager app accessible from the HubExchange menu in Marketing Cloud facilitates the management of Apple Push Notification (APNS) Certificates and Google API keys for MobilePush configurations. In turn, this provides a faster, more secure way to register apps with MobilePush.
 
