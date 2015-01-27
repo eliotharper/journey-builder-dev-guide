@@ -29,7 +29,7 @@ If you do not define an `entryMode` when creating an Interaction, then the Inter
 
 A new 'Date-Based' Trigger option is available in Interaction Triggers that enables date-based Attributes from the Contact model to determine an entry criteria for the Interaction.
 
-![Date-Based Trigger](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/date-based-trigger.png "Date-Based Trigger in an Interaction Trigger")<br />*Date-Based Trigger in an Interaction Trigger*
+<a href="https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/date-based-trigger.png" target="_blank"><img src="https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/date-based-trigger.png" alt="Date-Based Trigger" title="Date-Based Trigger in an Interaction Trigger" style="max-width:100%; border: 1px solid #cccccc;"></a><br />*Date-Based Trigger in an Interaction Trigger*
 
 A threshold defines the number of days, weeks or months and start time that the Contact should be admitted into the Interaction, before or after the selected Attribute date. When the Contact meets the criteria, the Contact will be admitted into the Interaction. 
 
