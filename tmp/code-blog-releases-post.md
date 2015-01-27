@@ -25,7 +25,7 @@ This mode can also be defined when creating an Interaction using the an Interact
 
 If you do not define an `entryMode` when creating an Interaction, then the Interaction will use `SingleEntryAcrossAllVersions` by default.
 
-## Date-Based Triggers (Jan 2015 Release)
+### Date-Based Triggers (Jan 2015 Release)
 
 A new 'Date-Based' Trigger option is available in Interaction Triggers that enables date-based Attributes from the Contact model to determine an entry criteria for the Interaction.
 
@@ -59,7 +59,7 @@ In WDF, Wait Periods (represented as `Wait` type Activities) are reunited into a
 
 ![WDF Join Flow](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/join-flow.png "A WDF Interaction with a Join Activity")<br />*A WDF Interaction Workflow with a Join Activity*
 
-## Personalization Strings in Email (Nov 2014 Release)
+### Personalization Strings in Email (Nov 2014 Release)
 
 Personalization strings are now supported in emails sent from Journey Builder (in previous releases, emails in a Journey Builder Send Email Activity could not be personalized). The data binding context used for personalization strings is the Event Source Data Extension defined in the Interaction Trigger. 
 
@@ -115,9 +115,9 @@ What is interesting to note is that there's a new `waitForEventKey` name/value p
 
 ## Journey Builder for Apps Enhancements
 
-### Pictures in MobilePush Notifications in Android Devices (Nov 2014 Release)
+### Pictures in Android MobilePush Notifications (Nov 2014 Release)
 
-Pictures can now be included in MobilePush Notifications for Android Devices. This support adds impact to push notifications and can improve action rates.
+Pictures can now be included in MobilePush Notifications for Android devices. This support adds impact to push notifications and can improve action rates.
 
 To enable picture notifications in Android devices, create a new `et_big_pic` custom key in Journey Builder for Apps SDK Explorer.
 
@@ -131,7 +131,7 @@ The Android SDK will handle the message display and the image (which will be sca
 
 ![Picture in Push Notification](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/android_sdk_bigpic_picture_message.png "Image in a MobilePush Message")<br />*Image in a MobilePush Message*
 
-# Journey Builder for Apps SDK Explorer (Nov 2014 Release)
+### Journey Builder for Apps SDK Explorer (Nov 2014 Release)
 
 Journey Builder for Apps SDK Explorer available from [Google Play Store](https://play.google.com/store/apps/details?id=com.exacttarget.jb4a.sdkexplorer) enables developers to use the SDK without a requiring a Salesforce Marketing Cloud account. An iOS version of this app will be available from the Apple App Store in the coming months.
 
