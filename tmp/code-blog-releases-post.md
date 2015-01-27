@@ -16,7 +16,7 @@ If the option is set to 'Single Entry' and a Contact is currently in any version
 
 If the option is set to 'Multiple Entries', when an Event is fired the Contact  Contact can enter the current active version of an Interaction (if they meet the Contact Filter Entry Criteria defined in the Interaction Trigger), even if they have previously exited the Interaction.
 
-![Setting the Contact Entry Mode](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/contact-entry-mode.png "Setting The Contact Entry Mode in Journey Builder Interaction Canvas") *Setting The Contact Entry Mode in Journey Builder Interaction Canvas*
+![Setting the Contact Entry Mode](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/contact-entry-mode.png "Setting The Contact Entry Mode in Journey Builder Interaction Canvas")<br />*Setting The Contact Entry Mode in Journey Builder Interaction Canvas*
 
 This mode can also be defined when creating an Interaction using the an Interaction method from the Fuel REST API by including one of the following name/value pairs in the WDF payload:
 
@@ -29,7 +29,7 @@ If you do not define an `entryMode` when creating an Interaction, then the Inter
 
 A new 'Date-Based' Trigger option is available in Interaction Triggers that enables date-based Attributes from the Contact model to determine an entry criteria for the Interaction.
 
-![Date-Based Trigger](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/date-based-trigger.png "Date-Based Trigger in an Interaction Trigger") *Date-Based Trigger in an Interaction Trigger*
+![Date-Based Trigger](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/date-based-trigger.png "Date-Based Trigger in an Interaction Trigger")<br />*Date-Based Trigger in an Interaction Trigger*
 
 A threshold defines the number of days, weeks or months and start time that the Contact should be admitted into the Interaction, before or after the selected Attribute date. When the Contact meets the criteria, the Contact will be admitted into the Interaction. 
 
@@ -45,7 +45,7 @@ To set a Trigger to Test Mode in Journey Builder, select **Triggers** from the *
 
 Only Triggers that are set to 'Unavailable' can be tested. If a Trigger is currently set to 'Available', select the **Unavailable** radio button and click **Save**, then open the Trigger Status dialog for the Trigger again by selecting **Test Mode** and click **Save**. 
 
-![Trigger Test Mode](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/trigger-test-mode.png "Setting a Trigger to Test Mode in Journey Builder Trigger Administration") *Setting a Trigger to Test Mode in Journey Builder Trigger Administration*
+![Trigger Test Mode](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/trigger-test-mode.png "Setting a Trigger to Test Mode in Journey Builder Trigger Administration")<br />*Setting a Trigger to Test Mode in Journey Builder Trigger Administration*
 
 A View Results link will then appear in the Trigger Performance column. Fire an Event (using Automation Studio or the contactEvents API method) for the Interaction Trigger to hear the Event, then click on the **View Results** link to preview the percentage of rejected Contacts (that did not meet the entry criteria) and the percentage of Contacts that would have been accepted into the Interaction, if the Trigger was available.
 
@@ -57,7 +57,7 @@ Note that in [Workflow Document Format (WDF)](https://code.exacttarget.com/app-d
 
 In WDF, Wait Periods (represented as `Wait` type Activities) are reunited into a single branch by using the same target `Wait` type Activity key for their outcome. The flow diagram below illustrates this behavior, where boxes represent Activity Objects and arrows are outcomes from the Activity Objects.
 
-![WDF Join Flow](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/join-flow.png "A WDF Interaction with a Join Activity") *A WDF Interaction Workflow with a Join Activity*
+![WDF Join Flow](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/join-flow.png "A WDF Interaction with a Join Activity")<br />*A WDF Interaction Workflow with a Join Activity*
 
 ## Personalization Strings in Email (November 2014 release)
 
@@ -67,13 +67,13 @@ To include an Event Source Data Extension field in an Email use the `%%fieldName
 
 You will need to ensure that an Profile Attribute exists for the Data Extension field before it can be used in an email. To create a new Attribute, select **Profile Management** from the **Subscribers** menu in the Marketing Cloud Email app and click the **Create** button. Add the name of the Data Extension field in the New Attribute Properties dialog and include an optional description, then click OK.
 
-![Creating New Profile Attributes in the Email App](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/new-profile-attribute.png "Creating New Profile Attributes in the Email App") *Creating New Profile Attributes in the Email App*
+![Creating New Profile Attributes in the Email App](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/new-profile-attribute.png "Creating New Profile Attributes in the Email App")<br />*Creating New Profile Attributes in the Email App*
 
 The Send Email Activity creates a Triggered Send in the Marketing Cloud Email app when the Interaction is published. This Triggered Send is used to deliver the email from the Send Email Activity. When an Interaction enters an unpublished state, the Triggered Send is set to inactive until the Activity is re-published.
 
 Note that if the email template is updated while an Interaction is running, you need to publish the changes for the Triggered Email by selecting **Triggered Emails** from the **Interactions** menu in the Marketing Cloud Email app and expand the Journey Builder Sends tree to locate the email. Select the checkbox next to the email and click the **Publish Changes** button.
 
-![Publishing Triggered Sends](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/publishing-triggered-sends.png "Publishing Triggered Sends from Marketing Cloud Email App") *Publishing Triggered Sends from Marketing Cloud Email App*
+![Publishing Triggered Sends](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/publishing-triggered-sends.png "Publishing Triggered Sends from Marketing Cloud Email App")<br />*Publishing Triggered Sends from Marketing Cloud Email App*
 
 ### Contact History (November 2014 Release)
 
@@ -81,7 +81,7 @@ This feature is helpful to be aware of when troubleshooting an Interaction or mo
 
 This page displays a complete transaction history of current and previously published Interactions. A search filter enables filtering by Contacts to display the Interactions they entered and exited, and the status of the Contact in Interactions. You can also filter by a column value, for example 'DidNotMeetEntryCriteria' to filter all Contacts that did not meet the Contact Filter Criteria defined in the Interaction Trigger.
 
-![Contact History](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/contact-history.png "Date-Based Trigger in an Interaction Trigger") *Date-Based Trigger in an Interaction Trigger*
+![Contact History](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/contact-history.png "Date-Based Trigger in an Interaction Trigger")<br />*Date-Based Trigger in an Interaction Trigger*
 
 ### Wait Period Time (January 2015 release)
 
@@ -121,21 +121,21 @@ Pictures can now be included in MobilePush Notifications for Android Devices. Th
 
 To enable picture notifications in Android devices, create a new `et_big_pic` custom key in Journey Builder for Apps SDK Explorer.
 
-![JBA 4 Apps Admin](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/android_mc_bigpic_admin.png "Creating a Custom Key Journey Builder for Apps SDK Explorer") *Creating a Custom Key Journey Builder for Apps SDK Explorer*
+![JBA 4 Apps Admin](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/android_mc_bigpic_admin.png "Creating a Custom Key Journey Builder for Apps SDK Explorer")<br />*Creating a Custom Key Journey Builder for Apps SDK Explorer*
 
 Once the custom key is added, you will be able to include a reference to an image when creating a new Outbound Message in MobilePush. From the MobilePush app, select the **Create Message** button, select the **Outbound** template, and the 'et_big_pic' Custom Key you created in the SDK Explorer will appear as an available custom key. Enter a shortened URL to the image.
 
-![MobilePush Message](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/android_mc_bigpic_create_message.png "Creating a Custom Key Journey Builder for Apps SDK Explorer") *Assigning a URL to a Custom Key in a MobilePush Message*
+![MobilePush Message](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/android_mc_bigpic_create_message.png "Creating a Custom Key Journey Builder for Apps SDK Explorer")<br />*Assigning a URL to a Custom Key in a MobilePush Message*
 
 The Android SDK will handle the message display and the image (which will be scaled as required) will appear in the message notification.
 
-![Picture in Push Notification](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/android_sdk_bigpic_picture_message.png "Image in a MobilePush Message") *Image in a MobilePush Message*
+![Picture in Push Notification](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/android_sdk_bigpic_picture_message.png "Image in a MobilePush Message")<br />*Image in a MobilePush Message*
 
 # Journey Builder for Apps SDK Explorer (November 2014 Release)
 
 Journey Builder for Apps SDK Explorer available from [Google Play Store](https://play.google.com/store/apps/details?id=com.exacttarget.jb4a.sdkexplorer) enables developers to use the SDK without a requiring a Salesforce Marketing Cloud account. An iOS version of this app will be available from the Apple App Store in the coming months.
 
-![SDK Explorer](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/sendmessage-explorer.png "Sending a Message using Journey Builder for Apps SDK Explorer") *Sending a Message using Journey Builder for Apps SDK Explorer*
+![SDK Explorer](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/sendmessage-explorer.png "Sending a Message using Journey Builder for Apps SDK Explorer")<br />*Sending a Message using Journey Builder for Apps SDK Explorer*
 
 ## MobilePush
 
@@ -155,7 +155,7 @@ Extending the previous release, Interactive Notifications have been added to the
 
 A Push Service Manager app accessible from the HubExchange menu in Marketing Cloud facilitates the management of Apple Push Notification (APNS) Certificates and Google API keys for MobilePush configurations. In turn, this provides a faster, more secure way to register apps with MobilePush.
 
-![Push Service Manager](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/PushServiceManager.png "Managing MobilePush configurations using Push Service Manager") *Managing MobilePush configurations using Push Service Manager*
+![Push Service Manager](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/PushServiceManager.png "Managing MobilePush configurations using Push Service Manager")<br />*Managing MobilePush configurations using Push Service Manager*
 
 ## About the Author
 
