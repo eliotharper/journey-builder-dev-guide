@@ -6,15 +6,15 @@ The two recent releases of Salesforce Marketing Cloud (Nov 2014 and Jan 2015) in
 
 ### Contact Entry Mode (Jan 2015 Release)
 
-In previous versions of Journey Builder, once a Contact has entered an Interaction they could not enter the Interaction again, even if the Contact has already exited the Interaction. If you create a new version of the Interaction and publish it, then the same rule applies; if the Contact has entered any previous version of the Interaction, then they will not enter the new version.
+In previous Journey Builder releases, a Contact could not be in the same version of an Interaction simultaneously.
 
-This is an issue for Interactions where you need a Contact to enter an Interaction more than once, for example annually for birthday or anniversary programs.
+This is an issue for Interactions where you need a Contact to enter the same Interaction more than once, for example in abandoned cart or post-purchase Interactions.
 
-In this new release, a Contact Entry Mode has been added to the Interaction Canvas that enables you to define whether a Contact can enter an Interaction once (across all Interaction versions), or multiple times.
+In this new release, a Contact Entry Mode has been added to the Interaction Canvas that enables you to define whether a Contact can enter an Interaction once (across all Interaction versions), or enter the same Interaction multiple times.
 
-If the option is set to 'Single Entry' and a Contact is currently in any version of the Interaction, then they will not be allowed to enter future versions of the Interaction. However, if they are not currently in an Interaction version, they will be allowed to enter the Interaction again (if they meet the Contact Filter Entry Criteria defined in the Interaction Trigger).
+If the option is set to 'Single Entry' and a Contact is already in a current version of the Interaction, then the Contact will not be allowed to enter the Interaction version again until they have exited the Interaction. However, if they are not currently in an Interaction version, they will be allowed to enter it (if they meet the Contact Filter Entry Criteria defined in the Interaction Trigger).
 
-If the option is set to 'Multiple Entries', when an Event is fired the Contact  Contact can enter the current active version of an Interaction (if they meet the Contact Filter Entry Criteria defined in the Interaction Trigger), even if they have previously exited the Interaction.
+If the option is set to 'Multiple Entries', when an Event is fired a Contact can enter the current active version of an Interaction (if they meet the Contact Filter Entry Criteria defined in the Interaction Trigger), even if they are already moving through the Interaction.
 
 ![Setting the Contact Entry Mode](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/contact-entry-mode.png "Setting The Contact Entry Mode in Journey Builder Interaction Canvas")<br />*Setting The Contact Entry Mode in Journey Builder Interaction Canvas*
 
@@ -163,4 +163,4 @@ These recent developer-centric enhancements to Salesforce Marketing Cloud provid
 
 ## About the Author
 
-Eliot Harper is Chief Technology Officer at Digital Logic, a Salesforce Marketing Cloud Partner based in Melbourne, Australia. Eliot specializes in Customer Journey Management and is author of the Journey Builder Developer's Guide http://jbdevelopers.guide.
+Eliot Harper is Chief Technology Officer at Digital Logic, a Salesforce Marketing Cloud Partner based in Melbourne, Australia. Eliot specializes in Customer Journey Management and is author of the Journey Builder Developer's Guide http://jbdevelopers.guide. Follow Eliot on Twitter [@eliotharper](https://twitter.com/eliotharper).
