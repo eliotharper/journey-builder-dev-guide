@@ -161,4 +161,4 @@ These recent developer-centric enhancements to Salesforce Marketing Cloud provid
 
 ## About the Author
 
-Eliot Harper is Chief Technology Officer at Digital Logic, a Salesforce Marketing Cloud Partner based in Melbourne, Australia. Eliot specializes in Customer Journey Management and is author of the Journey Builder Developer's Guide http://jbdevelopers.guide. Follow Eliot on Twitter [@eliotharper](https://twitter.com/eliotharper).
+Eliot Harper is Chief Technology Officer at Digital Logic, a Salesforce Marketing Cloud Partner based in Melbourne, Australia. Eliot specializes in Customer Journey Management and is author of the Journey Builder Developer's Guide http://jbdevelopers.guide. Follow [@eliotharper](https://twitter.com/eliotharper) on Twitter.
