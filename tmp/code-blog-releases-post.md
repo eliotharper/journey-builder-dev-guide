@@ -6,9 +6,7 @@ The two recent releases of Salesforce Marketing Cloud (Nov 2014 and Jan 2015) in
 
 ### Contact Entry Mode (Jan 2015 Release)
 
-In previous Journey Builder releases, a Contact could not be in the same version of an Interaction simultaneously.
-
-This is an issue for Interactions where you need a Contact to enter the same Interaction more than once, for example in abandoned cart or post-purchase Interactions.
+In previous Journey Builder releases, a Contact could not be in the same version of an Interaction simultaneously. This is an issue for Interactions where you need a Contact to enter the same Interaction more than once, for example in abandoned cart or post-purchase programs.
 
 In this new release, a Contact Entry Mode has been added to the Interaction Canvas that enables you to define whether a Contact can enter an Interaction once (across all Interaction versions), or enter the same Interaction multiple times.
 
