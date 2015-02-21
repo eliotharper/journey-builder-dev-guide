@@ -121,15 +121,15 @@ A callout box that appears between or after '#Body text fo' sections used for a 
 
 ## Character Styles
 
-<a name="strong" style="color:#000;">**Strong**</a>
+**Strong**<a name="strong">&nbsp;</a>
 
 A character style used within a paragraph to identify a term. Represented in a bold font weight.
 
-<a name="emphasis" style="color:#000;">*Emphasis*</a>
+*Emphasis*<a name="emphasis">&nbsp;</a>
 
 A character style used within a paragraph to provide emphasis. Represented in an italic font style.
 
-<a name="inline-code" style="color:#000;">`*Inline code`</a>
+`*Inline code`<a name="inline-code">&nbsp;</a>
 
 A code snippet or reference to code appearing within a '#Body text fo' paragraph. Typically displayed in a slab-serif typeface using a smaller font size and can use a different color or a shaded color background to denote its context. Refer to example below.
 
