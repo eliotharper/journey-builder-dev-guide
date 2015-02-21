@@ -92,7 +92,7 @@ An ordered list consisting of multiple list items prefixed with numbering. Refer
 
 ### #Code block
 
-A code snippet appearing between or following a body text section. Typically displayed in a slab-serif typeface using a smaller font size and can use a different color or a shaded color background. Optionally, a border is often used around the code block paragraph to indicate separation from body copy. A code block example is provided below.
+A code snippet appearing between or following a body text section. Typically displayed in a slab-serif typeface using a smaller font size and can use a different color or a shaded color background. Optionally, a border is often used around the code block paragraph and/or background color shading is used to indicate separation from body copy. A code block example is provided below.
 
 	"outcomes": [
 	    {
