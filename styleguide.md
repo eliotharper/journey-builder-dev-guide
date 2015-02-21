@@ -59,13 +59,13 @@ The a subheading in a chapter that appears within a #Subhead 3 section. There ca
 
 The a subheading in a chapter that appears within a #Subhead 4 section. There can be multiple #Subhead 5 paragraphs (and corresponding sections) within a #Subhead 4.
 
-<a name="figure-caption">*#Figure caption*</a>
+<a name="figure-caption" style="color:#000;">*#Figure caption*</a>
 
 A descriptive caption for a supporting figure (screenshot, diagram or illustration). A figure caption appears below a figure. Refer to example below.
 
 ![Joining Branches](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/join-branches.png "A Join Activity represented in Interaction Canvas") *A Join Activity represented in Interaction Canvas*
 
-<a name="body-text-fo">#Body text fo</a>
+<a name="body-text-fo" style="color:#000;">#Body text fo</a>
 
 A paragraph of body text. Refer to example below:
 
@@ -121,15 +121,15 @@ A callout box that appears between or after '#Body text fo' sections used for a 
 
 ## Character Styles
 
-<a name="strong">**Strong**</a>
+<a name="strong" style="color:#000;">**Strong**</a>
 
 A character style used within a paragraph to identify a term. Represented in a bold font weight.
 
-<a name="emphasis">*Emphasis*</a>
+<a name="emphasis" style="color:#000;">*Emphasis*</a>
 
 A character style used within a paragraph to provide emphasis. Represented in an italic font style.
 
-<a name="inline-code">`*Inline code`</a>
+<a name="inline-code" style="color:#000;">`*Inline code`</a>
 
 A code snippet or reference to code appearing within a '#Body text fo' paragraph. Typically displayed in a slab-serif typeface using a smaller font size and can use a different color or a shaded color background to denote its context. Refer to example below.
 
