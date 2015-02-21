@@ -59,13 +59,13 @@ The a subheading in a chapter that appears within a #Subhead 3 section. There ca
 
 The a subheading in a chapter that appears within a #Subhead 4 section. There can be multiple #Subhead 5 paragraphs (and corresponding sections) within a #Subhead 4.
 
-<a name="figure-caption" style="color:#000;">*#Figure caption*</a>
+*#Figure caption*<a name="figure-caption">&nbsp;</a>
 
 A descriptive caption for a supporting figure (screenshot, diagram or illustration). A figure caption appears below a figure. Refer to example below.
 
 ![Joining Branches](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/join-branches.png "A Join Activity represented in Interaction Canvas") *A Join Activity represented in Interaction Canvas*
 
-<a name="body-text-fo" style="color:#000;">#Body text fo</a>
+&#35;Body text fo<a name="body-text-fo">&nbsp;</a>
 
 A paragraph of body text. Refer to example below:
 
