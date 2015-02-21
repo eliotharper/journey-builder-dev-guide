@@ -4,21 +4,21 @@
 
 * [Introduction](#introduction)
 * [Paragraph Styles](#paragraph-styles)
-** [#Subhead 1](#subhead-1)
-** [#Subhead 2](#subhead-2)
-** [#Subhead 3](#subhead-3)
-** [#Subhead 4](#subhead-4)
-** [#Subhead 5](#subhead-5)
-** [#Figure caption](#figure-caption)
-** [#Body text fo](#body-text-fo)
-** [#List](#list)
-** [#Numbered list](#numbered-list)
-** [#Code block](#code-block)
-** [#box f/o](#box-fo)
+  * [#Subhead 1](#subhead-1)
+  * [#Subhead 2](#subhead-2)
+  * [#Subhead 3](#subhead-3)
+  * [#Subhead 4](#subhead-4)
+  * [#Subhead 5](#subhead-5)
+  * [#Figure caption](#figure-caption)
+  * [#Body text fo](#body-text-fo)
+  * [#List](#list)
+  * [#Numbered list](#numbered-list)
+  * [#Code block](#code-block)
+  * [#box f/o](#box-fo)
 * [Character Styles](#character-styles)
-** [Strong](#strong)
-** [Emphasis](#emphasis)
-** [*Inline code](#inline-code)
+  * [Strong](#strong)
+  * [Emphasis](#emphasis)
+  * [*Inline code](#inline-code)
 * [Table Styles](#table-styles)
 
 * * *
@@ -75,11 +75,11 @@ Journey Builder Interactions are structured workflows that use a series of hiera
 
 An unordered list consisting of multiple list items prefixed with bullet glyphs. Refer to example below.
 
-* **Draft** state is used when initially defining an Interaction in the Interaction Plan Canvas before it is saved. Interactions in this state cannot receive incoming events. Only one draft version of an Interaction can exist at a time.
-* **Saved** state is applied to an Interaction once it has been saved. Interactions in this state cannot receive incoming events.
-* **Publishing** state is a temporary state that applies to an Interaction Version while it is being activated. When an Interaction version is published, each Interaction Component in the version is evaluated to check that the Activities are valid for publishing. The evaluation process is described below.
-* **Running** state applies to Interactions after they have been validated successfully during the publishing state.
-* **Stopped** state refers to a published or running state of an Interaction that has been stopped. When an Interaction is changed to a stopped state, it will not accept any further incoming Events. Contacts are ejected from all versions in an Interaction when it is stopped.
+* **Draft  * state is used when initially defining an Interaction in the Interaction Plan Canvas before it is saved. Interactions in this state cannot receive incoming events. Only one draft version of an Interaction can exist at a time.
+* **Saved  * state is applied to an Interaction once it has been saved. Interactions in this state cannot receive incoming events.
+* **Publishing  * state is a temporary state that applies to an Interaction Version while it is being activated. When an Interaction version is published, each Interaction Component in the version is evaluated to check that the Activities are valid for publishing. The evaluation process is described below.
+* **Running  * state applies to Interactions after they have been validated successfully during the publishing state.
+* **Stopped  * state refers to a published or running state of an Interaction that has been stopped. When an Interaction is changed to a stopped state, it will not accept any further incoming Events. Contacts are ejected from all versions in an Interaction when it is stopped.
 
 ### #Numbered list
 
@@ -115,7 +115,7 @@ A code snippet appearing a Typically displayed in a slab-serif typeface using a 
 
 A callout box that appears between or after '#Body text fo' sections used for a sidenote. Although the manuscript prefixes these with '**Note:**', this can be replaced with a graphic symbol, for example a pencil or notepad icon. Optionally, a border is often used around a callout box to indicate separation from body copy.
 
-> **Note:** when using the Update Contact Data Activity to update a boolean field in a Data Extension, set the `arguments` value to `"1"`for true and `"0"` for false.
+> **Note:  * when using the Update Contact Data Activity to update a boolean field in a Data Extension, set the `arguments` value to `"1"`for true and `"0"` for false.
 
 * * *
 
