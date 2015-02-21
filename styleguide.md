@@ -75,11 +75,11 @@ Journey Builder Interactions are structured workflows that use a series of hiera
 
 An unordered list consisting of multiple list items prefixed with bullet glyphs. Refer to example below.
 
-* **Draft  * state is used when initially defining an Interaction in the Interaction Plan Canvas before it is saved. Interactions in this state cannot receive incoming events. Only one draft version of an Interaction can exist at a time.
-* **Saved  * state is applied to an Interaction once it has been saved. Interactions in this state cannot receive incoming events.
-* **Publishing  * state is a temporary state that applies to an Interaction Version while it is being activated. When an Interaction version is published, each Interaction Component in the version is evaluated to check that the Activities are valid for publishing. The evaluation process is described below.
-* **Running  * state applies to Interactions after they have been validated successfully during the publishing state.
-* **Stopped  * state refers to a published or running state of an Interaction that has been stopped. When an Interaction is changed to a stopped state, it will not accept any further incoming Events. Contacts are ejected from all versions in an Interaction when it is stopped.
+* **Draft** state is used when initially defining an Interaction in the Interaction Plan Canvas before it is saved. Interactions in this state cannot receive incoming events. Only one draft version of an Interaction can exist at a time.
+* **Saved** state is applied to an Interaction once it has been saved. Interactions in this state cannot receive incoming events.
+* **Publishing** state is a temporary state that applies to an Interaction Version while it is being activated. When an Interaction version is published, each Interaction Component in the version is evaluated to check that the Activities are valid for publishing. The evaluation process is described below.
+* **Running** state applies to Interactions after they have been validated successfully during the publishing state.
+* **Stopped** state refers to a published or running state of an Interaction that has been stopped. When an Interaction is changed to a stopped state, it will not accept any further incoming Events. Contacts are ejected from all versions in an Interaction when it is stopped.
 
 ### #Numbered list
 
