@@ -92,7 +92,7 @@ An ordered list consisting of multiple list items prefixed with numbering. Refer
 
 ### #Code block
 
-A code snippet appearing between or following a body text section. Typically displayed in a slab-serif typeface using a smaller font size and can use a different color or a shaded color background. Optionally, a border is often used around the code block paragraph and/or background color shading is used to indicate separation from body copy. A code block example is provided below.
+A code snippet appearing between or following a body text section. Typically displayed in a slab-serif typeface using a smaller font size and can use a different color or a shaded color background. Optionally, a border is often used around the code block paragraph to indicate separation from body copy. A code block example is provided below.
 
 	"outcomes": [
 	    {
@@ -113,7 +113,7 @@ A code snippet appearing between or following a body text section. Typically dis
 
 ### #box f/o
 
-A callout box that appears between or after '#Body text fo' sections used for a sidenote. Although the manuscript prefixes these with '**Note:**', this can be replaced with a graphic symbol, for example a pencil or notepad icon. Optionally, a border is often used around a callout box to indicate separation from body copy.
+A callout box that appears between or after '#Body text fo' sections used for a sidenote. Although the manuscript prefixes these with '**Note:**', this can be replaced with a graphic symbol, for example a pencil or notepad icon. Optionally, a border is often used around a callout box and/or background color shading is used to indicate separation from body copy.
 
 > **Note:  * when using the Update Contact Data Activity to update a boolean field in a Data Extension, set the `arguments` value to `"1"`for true and `"0"` for false.
 
