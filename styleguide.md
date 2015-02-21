@@ -4,7 +4,21 @@
 
 * [Introduction](#introduction)
 * [Paragraph Styles](#paragraph-styles)
+** [#Subhead 1](#subhead-1)
+** [#Subhead 2](#subhead-2)
+** [#Subhead 3](#subhead-3)
+** [#Subhead 4](#subhead-4)
+** [#Subhead 5](#subhead-5)
+** [#Figure caption](#figure-caption)
+** [#Body text fo](#body-text-fo)
+** [#List](#list)
+** [#Numbered list](#numbered-list)
+** [#Code block](#code-block)
+** [#box f/o](#box-fo)
 * [Character Styles](#character-styles)
+** [Strong](#strong)
+** [Emphasis](#emphasis)
+** [*Inline code](#inline-code)
 * [Table Styles](#table-styles)
 
 * * *
@@ -45,15 +59,15 @@ The a subheading in a chapter that appears within a #Subhead 3 section. There ca
 
 The a subheading in a chapter that appears within a #Subhead 4 section. There can be multiple #Subhead 5 paragraphs (and corresponding sections) within a #Subhead 4.
 
-*#Figure caption*
+<a name="figure-caption">*#Figure caption*</a>
 
-A descriptive caption for a supporting figure (screenshot, diagram or illustration). A figure caption appears below a figure. An example is provided below.
+A descriptive caption for a supporting figure (screenshot, diagram or illustration). A figure caption appears below a figure. Refer to example below.
 
 ![Joining Branches](https://raw.githubusercontent.com/eliotharper/journey-builder-dev-guide/master/images/join-branches.png "A Join Activity represented in Interaction Canvas") *A Join Activity represented in Interaction Canvas*
 
- #Body text fo
+<a name="body-text-fo">#Body text fo</a>
 
-A paragraph of body text. Refer to example below.
+A paragraph of body text. Refer to example below:
 
 Journey Builder Interactions are structured workflows that use a series of hierarchical elements similar to XML, where a single root element (an Interaction) contains child elements (Interaction Components) that cascade from the root element as parent-child relationships. Another way of representing an Interaction would be a tree model, consisting of one trunk (an Interaction) with branches to Interaction Components. These branches can split to form other branches.
 
@@ -69,7 +83,7 @@ An unordered list consisting of multiple list items prefixed with bullet glyphs.
 
 ### #Numbered list
 
-An ordered list consisting of multiple list items prefixed with numbering. Refer to example below
+An ordered list consisting of multiple list items prefixed with numbering. Refer to example below.
 
 1. The Interaction Trigger is configured
 2. Activities are configured
@@ -99,7 +113,7 @@ A code snippet appearing a Typically displayed in a slab-serif typeface using a 
 
 ### #box f/o
 
-A callout box that appears between or after '#Body text fo' sections used for a sidenote. Although the manuscript prefixes these with **Note:** copy, this can be replaced with a graphic symbol, for example a pencil or notepad icon. Optionally, a border is often used around a callout box to indicate separation from body copy.
+A callout box that appears between or after '#Body text fo' sections used for a sidenote. Although the manuscript prefixes these with '**Note:**', this can be replaced with a graphic symbol, for example a pencil or notepad icon. Optionally, a border is often used around a callout box to indicate separation from body copy.
 
 > **Note:** when using the Update Contact Data Activity to update a boolean field in a Data Extension, set the `arguments` value to `"1"`for true and `"0"` for false.
 
@@ -107,15 +121,15 @@ A callout box that appears between or after '#Body text fo' sections used for a 
 
 ## Character Styles
 
-**Strong**
+<a name="strong">**Strong**</a>
 
 A character style used within a paragraph to identify a term. Represented in a bold font weight.
 
-*Emphasis*
+<a name="emphasis">*Emphasis*</a>
 
 A character style used within a paragraph to provide emphasis. Represented in an italic font style.
 
-`*Inline code`
+<a name="inline-code">`*Inline code`</a>
 
 A code snippet or reference to code appearing within a '#Body text fo' paragraph. Typically displayed in a slab-serif typeface using a smaller font size and can use a different color or a shaded color background to denote its context. Refer to example below.
 
@@ -125,7 +139,7 @@ In WDF, an `entryMode` name/value pair is used in the Interaction Object with a 
 
 ## Table Styles
 
-Tables are used to denote tabluar data and are styled using the default 'Table Normal' style in Microsoft Word. Tables include a header row. Optionally zebra stripes are used in table rows. An example table is provided below.
+Tables are used to denote tabluar data and are styled using the default 'Table Normal' style in Microsoft Word. Tables include a header row. Optionally zebra stripes are used in table rows to improve readability. An example table is provided below.
 
 |Name|Value|
 |----|----|
